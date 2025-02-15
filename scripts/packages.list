@@ -8,6 +8,9 @@ make
 neofetch
 neovim
 php
+php-pdo-mysql
+php-pdo-pgsql
+php-simplexml
 composer
 ripgrep
 shellcheck
