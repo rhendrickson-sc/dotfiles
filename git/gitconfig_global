@@ -1,0 +1,20 @@
+[user]
+  name = <placeholder>
+  email = <placeholder>
+  signingkey = <placeholder>
+[color]
+  ui=auto
+[commit]
+  #gpgsign = true
+  template = ~/.local/user/gittemplate
+	gpgsign = true
+[include]
+  path = ~/.local/user/gitconf_local
+[init]
+  defaultBranch = main
+[push]
+  autoSetupRemote = true
+[core]
+	editor = vim
+[tag]
+	gpgSign = true
