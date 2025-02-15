@@ -9,7 +9,7 @@
 >
 > Be advised that this will overwrite any files that clash with ones located in this repo unless care is used to remove them.
 
-1. Clone the repository: `git clone git@bitbucket.org:rhendrickson/dotfiles-mint.git ~/.dotfiles`
+1. Clone the repository: `git clone git@github.com:rhendrickson-sc/dotfiles.git ~/.dotfiles`
 2. Run the install script: `cd ~/.dotfiles && sh install.sh`
 3. Make `~/.local/user/gitconf_local` with git "user" information (name, email, signing key, etc).
 
