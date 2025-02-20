@@ -89,7 +89,7 @@ done
 #
 
 # Add GPG key
-[ -f ~/.bashrc ] && echo -e "\nexport GPG_TTY=$(tty)" >> ~/.bashrc
+export GPG_TTY=/dev/pts/0
 
 # don't record some commands
 export HISTIGNORE="&:[ ]*:exit:ls:lla:ll:bg:fg:history:clear"
@@ -103,4 +103,3 @@ export PATH="/home/ryan/.lando/bin${PATH+:$PATH}"; #landopath
 # Symfony CLI dynamic completions
 eval "$(symfony self:completion bash)"
 
-export GPG_TTY=/dev/pts/1
